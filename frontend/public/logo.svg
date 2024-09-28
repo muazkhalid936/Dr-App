@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#e6e8ff" stroke="#5F6FFF" stroke-width="2"/>
+
+  <!-- Stylized Letter P -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="65" font-family="Verdana" font-weight="bold" fill="#5F6FFF">P</text>
+  
+  <!-- Decorative Curve -->
+  <path d="M 20,80 Q 50,40 80,80" fill="none" stroke="#5F6FFF" stroke-width="2" />
+</svg>
