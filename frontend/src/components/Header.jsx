@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <a
           href="#speciality"
-          className="flex rounded-full gap-2 text-sm hover:scale-105 ease-in-out duration-500 bg-white p-2"
+          className="flex transition rounded-full gap-2 text-sm hover:scale-105 ease-in-out duration-500 bg-white p-2"
         >
           Book appointment{" "}
           <img className="w-3" src={assets.arrow_icon} alt="" />
