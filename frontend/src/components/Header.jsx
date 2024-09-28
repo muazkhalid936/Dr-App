@@ -1,29 +1,30 @@
 import React from "react";
 import { assets } from "../assets/assets";
+
 const Header = () => {
   return (
-    <div className="bg-primary items-center flex flex-col md:flex-row  px-6 md:px-10 lg:px-20 ">
-      <div className="md:w-1/2  flex gap-4 flex-col items-start py-10 m-auto  justify-center ">
-        <div>
-          <p className="text-white  text-2xl font-bold">
-            Book Appointment <br /> With Trusted Docotrs
+    <div className="flex flex-col md:flex-row flex-wrap bg-primary  px-6 md:px-10 lg:px-20">
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw]">
+        <p className="text-2xl md:text-3xl lg:text-3xl text-white font-bold">
+          Book Appointment <br /> With Trusted Doctors
+        </p>
+        <div className="flex md:items-center flex-col md:flex-row gap-2 ">
+          <img className="h-10 w-28" src={assets.group_profiles} alt="" />
+          <p className="text-white font-light text-sm">
+            Simply browse through our extensive list of trsuted doctors, <br className="block md:hidden" />{" "}
+            schedule your appointment hassele-free.
           </p>
         </div>
-
-        <div className=" flex flex-col gap-4 ">
-          <img src={assets.group_profiles} className="h-10 w-24" alt="" />
-          <p className="text-gray-200 text-sm">
-            Simply browse through our extensive list of trusted doctors,
-            schedule your appointment hassle-free.
-          </p>
-        </div>
-        <a className="bg-white flex text-sm items-center justify-center gap-3 px-2 rounded-full py-2">
-          Book appointment <img src={assets.arrow_icon} />
+        <a  href="" className="flex rounded-full gap-2 text-sm hover:scale-105 ease-in-out duration-500 bg-white p-2">
+          Book appointment <img className="w-3" src={assets.arrow_icon} alt="" />
         </a>
       </div>
 
-      <div className="md:flex-1 relative   flex justify-center bottom-0 md:right-0 items-center ">
-        <img className="w-[50vh] md:w-[60%]" src={assets.header_img} />
+      <div className="md:w-1/2 relative">
+        <img
+          className="w-full md:absolute bottom-0 right-0"
+          src={assets.header_img}
+        />
       </div>
     </div>
   );

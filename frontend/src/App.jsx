@@ -11,7 +11,7 @@ import Appointments from "./pages/Appointments";
 import Navbar from "./components/Navbar";
 const App = () => {
   return (
-    <div className="mx-4 sm:mx-[10%]">
+    <div className="mx-4 md:mx-10 lg:mx-20">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
