@@ -11,12 +11,17 @@ const Header = () => {
         <div className="flex md:items-center flex-col md:flex-row gap-2 ">
           <img className="h-10 w-28" src={assets.group_profiles} alt="" />
           <p className="text-white font-light text-sm">
-            Simply browse through our extensive list of trsuted doctors, <br className="block md:hidden" />{" "}
-            schedule your appointment hassele-free.
+            Simply browse through our extensive list of trsuted doctors,{" "}
+            <br className="block md:hidden" /> schedule your appointment
+            hassele-free.
           </p>
         </div>
-        <a  href="" className="flex rounded-full gap-2 text-sm hover:scale-105 ease-in-out duration-500 bg-white p-2">
-          Book appointment <img className="w-3" src={assets.arrow_icon} alt="" />
+        <a
+          href="#speciality"
+          className="flex rounded-full gap-2 text-sm hover:scale-105 ease-in-out duration-500 bg-white p-2"
+        >
+          Book appointment{" "}
+          <img className="w-3" src={assets.arrow_icon} alt="" />
         </a>
       </div>
 
