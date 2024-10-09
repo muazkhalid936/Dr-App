@@ -17,7 +17,7 @@ const SpecialityMenu = () => {
           return (
             <Link
               key={index}
-              className="items-center flex flex-col "
+              className="items-center hover:translate-y-[-10px] text-sm md:tex-lg flex flex-col  transition-all duration-500 cursor-pointer"
               to={`/Doctors/${item.speciality}`}
             >
               <img className="w-16 sm:24 mb-2" src={item.image} />
